@@ -22,7 +22,7 @@ html, body{
     overflow: hidden;
     border-radius: 10px;
     width: 90%;
-    height: 82.5%;
+    height: 85%;
     background-color: #fdf7f7;
 }
 #panel1{
@@ -30,7 +30,7 @@ html, body{
     padding: 0px 30%;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 85px;
     width: 100%;
     background-color: rgb(180, 63, 102);
 }
