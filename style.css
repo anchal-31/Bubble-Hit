@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(232, 132, 166);
+}
+#panel {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 90%;
+    height: 82.5%;
+    background-color: #fdf7f7;
+}
+#panel1{
+    display: flex;
+    padding: 0px 30%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(180, 63, 102);
+}
+.element {
+    width: 15%;
+display: flex;
+align-items: center;
+gap: 10px;
+  color: #ffff;
+}
+.element h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.box{
+    color: rgb(147, 52, 84);
+    font-weight: 900;
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+#panelbottom{
+    justify-content: center;
+    align-items: center;
+   display: flex;
+   gap: 15px;
+   margin-left: 10px ;
+   flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    color: rgb(187, 62, 104);
+    height: calc(100% - 100px);
+}
+.bubble{
+    color: #ffff;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(230, 92, 138);
+    border-radius: 50%;
+}
+.bubble:hover{
+    background-color: rgb(187, 62, 104);
+    cursor: pointer;
+}
